@@ -1,30 +1,17 @@
 /*****************************
-* 009 - Mutation de variable et conversion de type
-*/
+ * 009 - Mutation de variable et conversion de type
+ */
 
-// 1. Initialiser les variables firstName à John et age à 28
-
+// 1. Initialisez les variables firstName à "John" et age à 28.
 
 // Conversion de type
 
-// 2. Ecrire l'instruction qui affiche "John a 28 ans"
-// et afficher le type de cette expression
+// 2. Affichez la phrase "John a 28 ans" en utilisant les variables et affichez le type de cette expression.
 
-
-// 3. Déclarer en une seule instruction les varaibles job et isMarried
-// puis affecter la valeur professeur à job et false à isMarried
-// enfin, écrire l'instruction qui affiche
-// "John est un professeur de 28 ans. Est-il marié ? false"
-
+// 3. Déclarez les variables job et isMarried, puis affectez la valeur "professeur" à job et false à isMarried. Ensuite, affichez la phrase "John est un professeur de 28 ans. Est-il marié ? false".
 
 // Variable mutation
 
-// 4. Affecter la valeur 'vingt-huit' à la variable age
-// et la valeur 'conducteur' à la variable job. 
-// Afficher ensuite la phrase précédente dans une boîet de dialogue
+// 4. Affectez la valeur "vingt-huit" à la variable age et la valeur "conducteur" à la variable job. Ensuite, affichez la phrase précédente dans une boîte de dialogue.
 
-
-// 5. Afficher une boîte de dialogue 'Quel est son nom de famille ?'
-// qui permet à l'utilisateur d'entrer le nom de famille de John
-// et stocker ce nom dans une variable lastName
-// puis afficher "Le nom de famille de John est … (le nom entré)"
+// 5. Affichez une boîte de dialogue demandant "Quel est son nom de famille ?" pour permettre à l'utilisateur d'entrer le nom de famille de John. Stockez ce nom dans une variable lastName, puis affichez "Le nom de famille de John est … (le nom
