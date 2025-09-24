@@ -17,8 +17,8 @@ const sum = number1 + number2;
 console.log('Somme : ' + sum);
 
 // Différence
-const difference = number1 - number2;
-console.log('Différence : ' + difference);
+const subtraction = number1 - number2;
+console.log('Différence : ' + subtraction);
 
 // Multiplication
 const multiplication = number1 * number2;
@@ -30,4 +30,4 @@ console.log('Division : ' + division);
 
 // Modulo
 const modulo = number1 % number2;
-console.log('Modulo : ' + modulo);
+console.log('Reste de la division : ' + modulo);
