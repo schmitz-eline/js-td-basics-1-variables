@@ -17,9 +17,9 @@
 //
 // BONNE CHANCE 😀
 
-const weightMark = 80;
+const weightMark = 100;
 const heightMark = 1.98;
-const weightJohn = 100;
+const weightJohn = 70;
 const heightJohn = 1.72;
 const bmiMark = weightMark / (heightMark * heightMark);
 const bmiJohn = weightJohn / (heightJohn * heightJohn);
@@ -27,3 +27,42 @@ const isBmiMarkHigherThanBmiJohn = bmiMark > bmiJohn;
 console.log('BMI de Mark : ' + bmiMark);
 console.log('BMI de John : ' + bmiJohn);
 console.log('Est-ce que le BMI de Mark est plus élevé que celui de John ? ' + isBmiMarkHigherThanBmiJohn);
+
+// 2 conditions inverses :
+if (bmiMark > bmiJohn /* ou isBmiMarkHigherThanBmiJohn (déconseillé) */) {
+    console.log('Le BMI de Mark est plus élevé que celui de John');
+}
+if (bmiMark <= bmiJohn) {
+    console.log('Le BMI de John est plus élevé que celui de Mark');
+}
+
+// ou
+if (bmiMark > bmiJohn) {
+    console.log('Le BMI de Mark est plus élevé que celui de John');
+} else {
+    console.log('Le BMI de John est plus élevé que celui de Mark');
+}
+
+// rajouter une condition :
+/*
+if (bmiMark > bmiJohn) {
+    console.log('Le BMI de Mark est plus élevé que celui de John');
+}
+if (bmiMark < bmiJohn) {
+    console.log('Le BMI de John est plus élevé que celui de Mark');
+}
+if (bmiMark === bmiJohn) {
+    console.log('Le BMI de John est le même que celui de Mark');
+}
+*/
+
+// ou
+/*
+if (bmiMark > bmiJohn) {
+    console.log('Le BMI de Mark est plus élevé que celui de John');
+} else if (bmiMark === bmiJohn) {
+    console.log('Le BMI de John est le même que celui de Mark');
+} else {
+    console.log('Le BMI de John est plus élevé que celui de Mark');
+}
+*/
